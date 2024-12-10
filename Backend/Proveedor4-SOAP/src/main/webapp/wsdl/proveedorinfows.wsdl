@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="ProveedorInfoWSService" targetNamespace="http://ws.das.ubp.edu.ar/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://ws.das.ubp.edu.ar/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.das.ubp.edu.ar/" version="1.0" xmlns:tns="http://ws.das.ubp.edu.ar/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="calificarPedido" type="tns:calificarPedido"/>
+  <xs:element name="calificarPedidoResponse" type="tns:calificarPedidoResponse"/>
+  <xs:element name="cancelarPedido" type="tns:cancelarPedido"/>
+  <xs:element name="cancelarPedidoResponse" type="tns:cancelarPedidoResponse"/>
+  <xs:element name="getPedidosInfo" type="tns:getPedidosInfo"/>
+  <xs:element name="getPedidosInfoResponse" type="tns:getPedidosInfoResponse"/>
+  <xs:element name="getProductosInfo" type="tns:getProductosInfo"/>
+  <xs:element name="getProductosInfoResponse" type="tns:getProductosInfoResponse"/>
+  <xs:element name="getProveedorInfo" type="tns:getProveedorInfo"/>
+  <xs:element name="getProveedorInfoResponse" type="tns:getProveedorInfoResponse"/>
+  <xs:element name="getToken" type="tns:getToken"/>
+  <xs:element name="getTokenResponse" type="tns:getTokenResponse"/>
+  <xs:element name="insertarPedidos" type="tns:insertarPedidos"/>
+  <xs:element name="insertarPedidosResponse" type="tns:insertarPedidosResponse"/>
+  <xs:complexType name="insertarPedidos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarPedidosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="calificarPedido">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="calificarPedidoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProductosInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProductosInfoResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getProveedorInfo">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="getProveedorInfoResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelarPedido">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cancelarPedidoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPedidosInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPedidosInfoResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getToken">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="getTokenResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AuthenticationException" type="tns:AuthenticationException"/>
+  <xs:complexType name="AuthenticationException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="resolvedObj" type="xs:anyType"/>
+      <xs:element minOccurs="0" name="explanation" type="xs:string"/>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="calificarPedidoResponse">
+    <wsdl:part name="parameters" element="tns:calificarPedidoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getProductosInfo">
+    <wsdl:part name="parameters" element="tns:getProductosInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getProductosInfoResponse">
+    <wsdl:part name="parameters" element="tns:getProductosInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getProveedorInfo">
+    <wsdl:part name="parameters" element="tns:getProveedorInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="cancelarPedidoResponse">
+    <wsdl:part name="parameters" element="tns:cancelarPedidoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="cancelarPedido">
+    <wsdl:part name="parameters" element="tns:cancelarPedido">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getToken">
+    <wsdl:part name="parameters" element="tns:getToken">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getProveedorInfoResponse">
+    <wsdl:part name="parameters" element="tns:getProveedorInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertarPedidos">
+    <wsdl:part name="parameters" element="tns:insertarPedidos">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTokenResponse">
+    <wsdl:part name="parameters" element="tns:getTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="calificarPedido">
+    <wsdl:part name="parameters" element="tns:calificarPedido">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertarPedidosResponse">
+    <wsdl:part name="parameters" element="tns:insertarPedidosResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPedidosInfo">
+    <wsdl:part name="parameters" element="tns:getPedidosInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="AuthenticationException">
+    <wsdl:part name="AuthenticationException" element="tns:AuthenticationException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPedidosInfoResponse">
+    <wsdl:part name="parameters" element="tns:getPedidosInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ProveedorInfoWS">
+    <wsdl:operation name="insertarPedidos">
+      <wsdl:input name="insertarPedidos" message="tns:insertarPedidos">
+    </wsdl:input>
+      <wsdl:output name="insertarPedidosResponse" message="tns:insertarPedidosResponse">
+    </wsdl:output>
+      <wsdl:fault name="AuthenticationException" message="tns:AuthenticationException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="calificarPedido">
+      <wsdl:input name="calificarPedido" message="tns:calificarPedido">
+    </wsdl:input>
+      <wsdl:output name="calificarPedidoResponse" message="tns:calificarPedidoResponse">
+    </wsdl:output>
+      <wsdl:fault name="AuthenticationException" message="tns:AuthenticationException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProductosInfo">
+      <wsdl:input name="getProductosInfo" message="tns:getProductosInfo">
+    </wsdl:input>
+      <wsdl:output name="getProductosInfoResponse" message="tns:getProductosInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="AuthenticationException" message="tns:AuthenticationException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProveedorInfo">
+      <wsdl:input name="getProveedorInfo" message="tns:getProveedorInfo">
+    </wsdl:input>
+      <wsdl:output name="getProveedorInfoResponse" message="tns:getProveedorInfoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarPedido">
+      <wsdl:input name="cancelarPedido" message="tns:cancelarPedido">
+    </wsdl:input>
+      <wsdl:output name="cancelarPedidoResponse" message="tns:cancelarPedidoResponse">
+    </wsdl:output>
+      <wsdl:fault name="AuthenticationException" message="tns:AuthenticationException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPedidosInfo">
+      <wsdl:input name="getPedidosInfo" message="tns:getPedidosInfo">
+    </wsdl:input>
+      <wsdl:output name="getPedidosInfoResponse" message="tns:getPedidosInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="AuthenticationException" message="tns:AuthenticationException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getToken">
+      <wsdl:input name="getToken" message="tns:getToken">
+    </wsdl:input>
+      <wsdl:output name="getTokenResponse" message="tns:getTokenResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProveedorInfoWSServiceSoapBinding" type="tns:ProveedorInfoWS">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="insertarPedidos">
+      <soap:operation soapAction="urn:InsertarPedidos" style="document"/>
+      <wsdl:input name="insertarPedidos">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="insertarPedidosResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="AuthenticationException">
+        <soap:fault name="AuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="calificarPedido">
+      <soap:operation soapAction="urn:CalificarPedido" style="document"/>
+      <wsdl:input name="calificarPedido">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="calificarPedidoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="AuthenticationException">
+        <soap:fault name="AuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProductosInfo">
+      <soap:operation soapAction="urn:GetProductosInfo" style="document"/>
+      <wsdl:input name="getProductosInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getProductosInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="AuthenticationException">
+        <soap:fault name="AuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getProveedorInfo">
+      <soap:operation soapAction="urn:GetProveedorInfo" style="document"/>
+      <wsdl:input name="getProveedorInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getProveedorInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarPedido">
+      <soap:operation soapAction="urn:CancelarPedido" style="document"/>
+      <wsdl:input name="cancelarPedido">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelarPedidoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="AuthenticationException">
+        <soap:fault name="AuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPedidosInfo">
+      <soap:operation soapAction="urn:GetPedidosInfo" style="document"/>
+      <wsdl:input name="getPedidosInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPedidosInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="AuthenticationException">
+        <soap:fault name="AuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getToken">
+      <soap:operation soapAction="urn:GetToken" style="document"/>
+      <wsdl:input name="getToken">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTokenResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProveedorInfoWSService">
+    <wsdl:port name="ProveedorInfoWSPort" binding="tns:ProveedorInfoWSServiceSoapBinding">
+      <soap:address location="http://localhost:8080/Proveedor4-SOAP/services/ProveedorInfoWSPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h5 class="modal-title" i18n>Calificar Pedido</h5>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+  </div>
+  
+  <div class="modal-body">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th i18n>Descripción</th>
+          <th i18n>Ponderación</th>
+          <th i18n>Seleccionar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let opcion of listarValoresPonderadosProveedor">
+          <td>{{ opcion.descripcion_valor}}</td>
+          <td>{{ opcion.valor_ponderado }}</td>
+          <td>
+            <input type="radio" name="calificacion" [value]="opcion" (click)="setCalificacion(opcion)" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="enviarCalificacion()" i18n>Enviar Calificación</button>
+  </div>

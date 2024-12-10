@@ -1,0 +1,46 @@
+<div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="titulo-productos-proveedor" i18n>Productos</h1>
+        </div>
+        <div class="col-md-6">
+            <nav class="nav-menu">
+              <a class="nav-link" routerLink="/main/listarPedidos" i18n>Pedidos</a>
+              <a class="nav-link" routerLink="/main/listarProveedores" i18n>Listado Proveedores</a>
+              <a class="nav-link" routerLink="/main/login" i18n>Cerrar Sesión</a>
+            </nav>
+        </div>
+    </div>
+
+    <div *ngIf="productos.length === 0" class="text-center mt-4">
+        <p i18n>No hay productos disponibles para este proveedor</p>
+    </div>
+
+    <div *ngIf="productos.length > 0" class="table-responsive mt-4">
+        <table class="table table-bordered">
+         <thead>
+            <tr>
+                <th i18n>Código de Barra</th>
+                <th i18n>Nombre</th>
+                <th i18n>Precio</th>
+                <th i18n>Imagen</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr *ngFor="let producto of productos">
+                <td>{{ producto.cod_barra }}</td>
+                <td>{{ producto.nombre }}</td>
+                <td>{{ producto.precio | currency }}</td>
+                <td>
+                    <img *ngIf="producto.imagen" [src]=" 'http://localhost:8086/supermercado/' + producto.imagen" alt="Imagen Producto" width="100">
+                </td>
+            </tr>
+         </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+

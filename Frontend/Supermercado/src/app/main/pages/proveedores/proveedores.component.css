@@ -1,0 +1,174 @@
+/* Estructura general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+  }
+  
+  .container-fluid {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Título del dashboard */
+  .titulo-proveedores {
+    color: #FF0066; 
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  /* Menú de navegación horizontal */
+  .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px; /* Espacio entre las opciones del menú */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #333; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #FF0066; /* Resaltado rosa al pasar el mouse */
+    color: white;
+  }
+  
+  .nav-link.active {
+    background-color: #FF0066; /* Color rosa para la opción activa */
+    color: white;
+  }
+
+  .row .col-md-12{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn-alta-proveedor{
+    width: 200px;
+    height: 40px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-alta-proveedor:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el mouse */
+  }
+  
+  .btn-alta-proveedor:active {
+    background-color: #388e3c; /* Color activo cuando se hace clic */
+  }
+
+  .btn-ver-efectividad{
+    width: 200px;
+    height: 40px;
+    background-color: #3e5f8a; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .no-proveedores {
+    margin-top: 30px;
+  }
+
+  .no-proveedores h2 {
+    color: #666;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  
+  
+  /* Tabla de proveedores */
+  .table thead {
+    background-color: #FF0066; /* Color rosa en la cabecera */
+    color: white;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table td.text-center {
+    text-align: center;
+  }
+
+  .table tbody tr:hover {
+    background-color: #f1f1f1; /* Color de hover en las filas */
+  }
+  
+  
+  /* Botones */
+  .table td.text-center .btn-cancel,
+  .table td.text-center .btn-info {
+    display: inline-block;
+    width: 48%; 
+    margin: 2px;
+    font-size: 14px;
+    padding: 8px 5px;
+    border: none;
+  
+  }
+
+  /* Botones */
+  .btn-cancel, .btn-info {
+   padding: 8px 15px;
+   border-radius: 4px;
+   cursor: pointer;
+   border: none;
+   color: white;
+   font-size: 14px;
+   margin-right: 10px;
+  }
+  
+  .btn-cancel {
+    background-color: #FF0066; /* Color rosa */
+  }
+  
+  .btn-cancel:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .btn-info {
+    background-color: #3e5f8a; 
+  }
+  
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }

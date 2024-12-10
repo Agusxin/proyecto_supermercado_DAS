@@ -1,0 +1,71 @@
+<div class="container-fluid">
+    <div class="row align-items-center">
+   
+     <div class="col-md-6">
+       <h1 class="titulo-proveedores" i18n>Listado de Proveedores</h1>
+     </div>
+   
+     <div class="col-md-6">
+       <nav class="nav-menu">
+         <a class="nav-link" routerLink="/main/listarPedidos" i18n>Pedidos</a>
+         <a class="nav-link active" routerLink="/main/listarProveedores" i18n>Listado Proveedores</a>
+         <a class="nav-link" routerLink="/main/login" i18n>Cerrar Sesión</a>
+       </nav>
+     </div>
+    </div>
+
+    <!-- Botón para Dar de Alta Proveedor -->
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <button class="btn-alta-proveedor" routerLink="/main/registrarProveedor" i18n>
+           Alta Proveedor
+        </button>
+        <button class="btn-ver-efectividad" routerLink="/main/proveedor-efectividad" i18n>
+          Ver efectividad de los proveedores
+        </button>
+      </div>
+    </div>
+
+    <div *ngIf= "proveedores.length === 0" class="row no-proveedores mt-4">
+      <div class="col-12 text-center">
+        <h2 i18n>No hay proveedores registrados en el sistema.</h2>
+      </div>
+    </div>
+    <div *ngIf= "proveedores.length > 0">
+      <div class="table-responsive mt-4">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th i18n>CUIT</th>
+              <th i18n>Nombre</th>
+              <th i18n>Dirección</th>
+              <th i18n>E-mail</th>
+              <th i18n>Teléfono</th>
+              <th class="text-center" i18n>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let proveedor of proveedores">
+              <td>{{ proveedor.cuit }}</td>
+              <td>{{ proveedor.nombre }}</td>
+              <td>{{ proveedor.direccion }}</td>
+              <td>{{ proveedor.email }}</td>
+              <td>{{ proveedor.telefono }}</td>
+              <td class="text-center">
+                <button class="btn-cancel" (click)="bajaProveedor(proveedor.id_proveedor)" i18n>
+                  Baja del proveedor
+                </button>
+                <button class="btn-info" (click)="productosProveedor(proveedor.id_proveedor)" i18n>
+                  Ver Productos
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+     </div>
+</div>
+   
+   
+   
+   

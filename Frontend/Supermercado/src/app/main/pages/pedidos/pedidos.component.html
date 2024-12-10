@@ -1,0 +1,66 @@
+<div class="container-fluid">
+ <div class="row align-items-center">
+
+  <div class="col-md-6">
+    <h1 class="titulo-pedidos" i18n>Listado de Pedidos</h1>
+  </div>
+
+  <div class="col-md-6">
+    <nav class="nav-menu">
+      <a class="nav-link active" routerLink="/main/listarPedidos" i18n>Pedidos</a>
+      <a class="nav-link" routerLink="/main/listarProveedores" i18n>Listado Proveedores</a>
+      <a class="nav-link" routerLink="/main/login" i18n>Cerrar Sesión</a>
+    </nav>
+  </div>
+ </div>
+
+ <div class="row mt-3" *ngIf="pedidos.length > 0">
+  <div class="col-md-6">
+    <input type="text" class="form-control" placeholder="Buscar por nombre del proveedor" [(ngModel)]="nombreProveedorFiltro" i18n-placeholder />
+  </div>
+  </div>
+
+ <div *ngIf= "(pedidos | pedidosProveedor: nombreProveedorFiltro).length === 0" class="mensaje-no-pedidos">
+    <h2 i18n>No hay pedidos disponibles en este momento.</h2>
+ </div>
+ <div *ngIf= "(pedidos | pedidosProveedor: nombreProveedorFiltro).length > 0">
+   <div class="table-responsive mt-4">
+     <table class="table table-bordered">
+       <thead>
+         <tr>
+           <th i18n>ID Pedido</th>
+           <th i18n>Estado</th>
+           <th i18n>Fecha Registro</th>
+           <th i18n>Fecha Prevista Entrega</th>
+           <th i18n>Fecha Real Entrega</th>
+           <th i18n>Nombre Proveedor</th>
+           <th i18n>Acciones</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr *ngFor="let pedido of pedidos | pedidosProveedor: nombreProveedorFiltro">
+           <td> <a [routerLink]="['/main/detallePedido', pedido.id_pedido]">{{ pedido.id_pedido }}</a></td>
+           <td [ngClass]="getEstadoClass(pedido.estado_pedido)">
+             {{ pedido.estado_pedido }}
+           </td>
+           <td>{{ pedido.fecha_registro_pedido | date:'short' }}</td>
+           <td>{{ pedido.fecha_prevista_entrega | date:'short' }}</td>
+           <td>{{ pedido.fecha_real_entrega | date:'short' }}</td>
+           <td>{{ pedido.nombre_proveedor }}</td>
+           <td>
+             <button class="btn-cancel" (click)="cancelarPedido(pedido.id_pedido)" [disabled]="pedido.estado_pedido !== 'Pendiente'" i18n>
+               Cancelar
+             </button>
+             <button class="btn-evaluate" (click)="evaluarPedido(pedido.id_pedido, pedido.id_proveedor)" [disabled]="pedido.estado_pedido !== 'Entregado'" i18n>
+               Evaluar
+             </button>
+           </td>
+         </tr>
+       </tbody>
+     </table>
+   </div>
+  </div>
+</div>
+
+
+

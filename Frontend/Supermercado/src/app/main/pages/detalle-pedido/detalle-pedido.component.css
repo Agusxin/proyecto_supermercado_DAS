@@ -1,0 +1,95 @@
+/* Estructura general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+  }
+
+  .container-fluid {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .titulo-detalle-pedidos {
+    color: #FF0066; /* Color rosa similar */
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  
+/* Menú de navegación horizontal */
+.nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px; /* Espacio entre las opciones del menú */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #333; /* Fondo oscuro para el menú */
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #FF0066; /* Resaltado rosa al pasar el mouse */
+    color: white;
+  }
+  
+  /* Tabla de detalles del pedido */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table thead {
+    background-color: #FF0066; /* Cabecera de la tabla con color rosa */
+    color: white;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1; /* Color de hover en las filas */
+  }
+  
+  /* Imagen del producto */
+  img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mensaje cuando no hay detalles de pedido */
+  p {
+    font-size: 18px;
+    color: #FF0066; /* Color rosa */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .table th, .table td {
+      padding: 8px;
+    }
+    
+    img {
+      width: 80px;
+    }
+  }

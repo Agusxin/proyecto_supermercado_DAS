@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-AR" datatype="plaintext" original="ng2.template" target-language="es-AR">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source><target state="final">Close</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source><target state="final">HH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source><target state="final">Close</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source><target state="final">««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source><target state="final">Select month</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source><target state="final">Previous month</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source><target state="final"><x id="INTERPOLATION"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source><target state="final"> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source><target state="final">Hours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source><target state="final">«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source><target state="final">Previous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source><target state="final">MM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source><target state="final">»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source><target state="final">Select year</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source><target state="final">Next month</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source><target state="final">Next</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source><target state="final">Minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source><target state="final">»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source><target state="final">Increment hours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source><target state="final">First</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source><target state="final">Previous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source><target state="final">Decrement hours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source><target state="final">Next</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source><target state="final">Increment minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source><target state="final">Last</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source><target state="final">Decrement minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source><target state="final">SS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source><target state="final">Seconds</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source><target state="final">Increment seconds</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source><target state="final">Decrement seconds</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source><target state="final"><x id="INTERPOLATION"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source><target state="final"><x id="INTERPOLATION"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+
+      
+
+      <trans-unit id="3839182957808455846" datatype="html">
+        <source>Detalle del pedido</source><target state="final">Detalle del pedido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3816056418216956233" datatype="html">
+        <source>Pedidos</source><target state="final">Pedidos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1577855515283535752" datatype="html">
+        <source>Listado Proveedores</source><target state="final">Listado Proveedores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5910230118126281523" datatype="html">
+        <source>Cerrar Sesión</source><target state="final">Cerrar Sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8963666016088354340" datatype="html">
+        <source>Código de Barras</source><target state="final">Código de Barras</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5426109382041281633" datatype="html">
+        <source>Cantidad</source><target state="final">Cantidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7937626225231657725" datatype="html">
+        <source>Imagen</source><target state="final">Imágen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7580433380726557252" datatype="html">
+      
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>No se encontraron detalles para este pedido.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source><target state="final"><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>No se encontraron detalles para este pedido.<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/detalle-pedido/detalle-pedido.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8024932591315166082" datatype="html">
+        <source>Iniciar Sesión</source><target state="final">Iniciar Sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9016536884183098576" datatype="html">
+        <source>Usuario</source><target state="final">Usuario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2642575258675089831" datatype="html">
+        <source> El usuario es requerido. </source><target state="final">El usuario es requerido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2917610674171976707" datatype="html">
+        <source>Clave</source><target state="final">Clave</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7652378305582344168" datatype="html">
+        <source> La clave es requerida. </source><target state="final">La clave es requerida.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1806823120735777788" datatype="html">
+        <source> Usuario y/o clave incorrectas. </source><target state="final">Usuario y/o clave incorrectas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.component.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3541506876911688212" datatype="html">
+        <source>Calificar Pedido</source><target state="final">Calificar Pedido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2702769239797460498" datatype="html">
+        <source>Descripción</source><target state="final">Descripción</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4147399721666562974" datatype="html">
+        <source>Ponderación</source><target state="final">Ponderación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2229594745304510307" datatype="html">
+        <source>Seleccionar</source><target state="final">Seleccionar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5716475682508817334" datatype="html">
+        <source>Enviar Calificación</source><target state="final">Enviar Calificación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4703326758572748578" datatype="html">
+        <source>Debe seleccionar una opción para calificar el pedido.</source><target state="final">Debe seleccionar una opción para calificar el pedido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/modal-calificar-pedido/modal-calificar-pedido.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9131048979990378521" datatype="html">
+        <source>URL del Proveedor</source><target state="final">URL del Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1434145893627296895" datatype="html">
+        <source>Ingrese la URL del proveedor</source><target state="final">Ingrese la URL del proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2730099266840834650" datatype="html">
+        <source>La URL es requerida</source><target state="final">La URL es requerida</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="126043038484908609" datatype="html">
+        <source>Insertar Proveedor</source><target state="final">Insertar Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7329584700537079690" datatype="html">
+        <source>Volver</source><target state="final">Volver</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5597662416463897370" datatype="html">
+        <source>Insertando proveedor...</source><target state="final">Insertando proveedor...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8621474421300576280" datatype="html">
+        <source>Ocurrió un error al insertar el proveedor. Por favor, intente nuevamente.</source><target state="final">Ocurrió un error al insertar el proveedor. Por favor, intente nuevamente.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8555569074317809104" datatype="html">
+        <source>Datos del Proveedor Insertado</source><target state="final">Datos del Proveedor Insertado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1955315444811491895" datatype="html">
+        <source>CUIT</source><target state="final">CUIT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5357661269973482487" datatype="html">
+        <source>Nombre</source><target state="final">Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27938269079184046" datatype="html">
+        <source>Dirección</source><target state="final">Dirección</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source><target state="final">Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8437243144618493917" datatype="html">
+        <source>Teléfono</source><target state="final">Teléfono</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2420706424197558187" datatype="html">
+        <source>Seleccione el valor ponderado: </source><target state="final">Seleccione el valor ponderado:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5375869193600502485" datatype="html">
+        <source>Guardar Ponderaciones</source><target state="final">Guardar Ponderaciones</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4572554220979810931" datatype="html">
+        <source>Por favor, selecciones un valor ponderado para todos los elementos antes de guardar.</source><target state="final">Por favor, selecciones un valor ponderado para todos los elementos antes de guardar.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/nuevo-proveedor/nuevo-proveedor.component.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7903224467695571485" datatype="html">
+        <source>Listado de Pedidos</source><target state="final">Listado de Pedidos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5217210960875894883" datatype="html">
+        <source>Buscar por nombre del proveedor</source><target state="final">Buscar por nombre del proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6537204023152298380" datatype="html">
+        <source>No hay pedidos disponibles en este momento.</source><target state="final">No hay pedidos disponibles en este momento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6512448538843811748" datatype="html">
+        <source>ID Pedido</source><target state="final">ID Pedido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4963172891871550734" datatype="html">
+        <source>Estado</source><target state="final">Estado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5085097857664037634" datatype="html">
+        <source>Fecha Registro</source><target state="final">Fecha Registro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="614506564270603748" datatype="html">
+        <source>Fecha Prevista Entrega</source><target state="final">Fecha Prevista Entrega</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1507633257888739436" datatype="html">
+        <source>Fecha Real Entrega</source><target state="final">Fecha Real Entrega</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1209410282737778415" datatype="html">
+        <source>Nombre Proveedor</source><target state="final">Nombre Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2656760189624669010" datatype="html">
+        <source>Acciones</source><target state="final">Acciones</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6060080757060540228" datatype="html">
+        <source> Cancelar </source><target state="final">Cancelar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7182478061628128199" datatype="html">
+        <source> Evaluar </source><target state="final">Evaluar  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1504097109058345769" datatype="html">
+        <source>pendiente</source><target state="final">pendiente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79561501892563429" datatype="html">
+        <source>en-proceso</source><target state="final">en-proceso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6603459770230670619" datatype="html">
+        <source>enviado</source><target state="final">enviado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4171317672158062963" datatype="html">
+        <source>entregado</source><target state="final">entregado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4817898565048604270" datatype="html">
+        <source>calificado</source><target state="final">calificado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/pedidos/pedidos.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1815920507891249355" datatype="html">
+        <source>Productos</source><target state="final">Productos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8902558635067761893" datatype="html">
+        <source>No hay productos disponibles para este proveedor</source><target state="final">No hay productos disponibles para este proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4104067648771214142" datatype="html">
+        <source>Código de Barra</source><target state="final">Código de Barra</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2090485092107532642" datatype="html">
+        <source>Precio</source><target state="final">Precio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/productos-proveedores/productos-proveedores.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1467110798566458768" datatype="html">
+        <source>Efectividad del Proveedor</source><target state="final">Efectividad del Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2097742721274039019" datatype="html">
+        <source>No hay proveedores con pedidos calificados</source><target state="final">No hay proveedores con pedidos calificados</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4062077207205566613" datatype="html">
+        <source>Calificación</source><target state="final">Calificación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7880244845232706031" datatype="html">
+        <source>Cantidad de pedidos</source><target state="final">Cantidad de pedidos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7654533843323775908" datatype="html">
+        <source>Tardanza Máxima en dias</source><target state="final">Tardanza Máxima en dias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1023865815649817897" datatype="html">
+        <source>Tardanza Mínima en dias</source><target state="final">Tardanza Mínima en dias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3633572499954640407" datatype="html">
+        <source>Promedio de demora en dias</source><target state="final">Promedio de demora en dias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedor-efectividad/proveedor-efectividad.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2643985761670597963" datatype="html">
+        <source>Listado de Proveedores</source><target state="final">Listado de Proveedores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5201794518702702389" datatype="html">
+        <source> Alta Proveedor </source><target state="final">Alta Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8989647624727060782" datatype="html">
+        <source> Ver efectividad de los proveedores </source><target state="final">Ver efectividad de los proveedores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91299103618705684" datatype="html">
+        <source>No hay proveedores registrados en el sistema.</source><target state="final">No hay proveedores registrados en el sistema.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1890300073702152532" datatype="html">
+        <source>E-mail</source><target state="final">E-mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7126239853135873432" datatype="html">
+        <source> Baja del proveedor </source><target state="final">Baja del proveedor </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8104192654558433781" datatype="html">
+        <source> Ver Productos </source><target state="final">Ver Productos </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/proveedores/proveedores.component.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

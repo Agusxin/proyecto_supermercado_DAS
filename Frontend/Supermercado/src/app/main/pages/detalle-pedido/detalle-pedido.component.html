@@ -1,0 +1,40 @@
+<div class="container-fluid"> 
+  <div class="row align-items-center">
+   <div class="col-md-6">
+     <h1 class="titulo-detalle-pedidos" i18n>Detalle del pedido</h1>
+   </div>
+   <div class="col-md-6">
+     <nav class="nav-menu">
+       <a class="nav-link" routerLink="/main/listarPedidos" i18n>Pedidos</a>
+       <a class="nav-link" routerLink="/main/listarProveedores" i18n>Listado Proveedores</a>
+       <a class="nav-link" routerLink="/main/login" i18n>Cerrar Sesión</a>
+     </nav>
+    </div>
+ </div>
+  <div *ngIf="detallePedido.length > 0">
+    <table class="table">
+      <thead>
+        <tr>
+          <th i18n>Código de Barras</th>
+          <th i18n>Cantidad</th>
+          <th>Motivo de Cancelacion</th>
+          <th i18n>Imagen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let detalle of detallePedido">
+          <td>{{ detalle.cod_barra }}</td>
+          <td>{{ detalle.cantidad }}</td>
+          <td>{{ detalle.motivo_cancelacion }}</td>
+          <td>
+            <img *ngIf="detalle.imagen" [src]=" 'http://localhost:8086/supermercado/' + detalle.imagen" alt="Imagen Producto" width="100">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div *ngIf="detallePedido.length === 0" i18n>
+    <p>No se encontraron detalles para este pedido.</p>
+  </div>
+</div>

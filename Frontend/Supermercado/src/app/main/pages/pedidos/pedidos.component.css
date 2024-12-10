@@ -1,0 +1,135 @@
+/* Estructura general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Fondo claro */
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Título del dashboard */
+.titulo-pedidos {
+  color: #FF0066; /* Color rosa similar */
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Menú de navegación horizontal */
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Espacio entre las opciones del menú */
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #333; /* Fondo oscuro para el menú */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #FF0066; /* Resaltado rosa al pasar el mouse */
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #FF0066; /* Color rosa para la opción activa */
+  color: white;
+}
+
+/* Tabla de pedidos */
+.table thead {
+  background-color: #FF0066; /* Color rosa en la cabecera */
+  color: white;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1; /* Color de hover en las filas */
+}
+
+/* Estado del pedido - Semáforo de colores */
+.pendiente {
+  color: #FFA500; /* Naranja */
+  font-weight: bold;
+}
+
+.en-proceso {
+  color: #FFCC00; /* Amarillo */
+  font-weight: bold;
+}
+
+.enviado {
+  color: #007bff; /* Azul */
+  font-weight: bold;
+}
+
+.entregado {
+  color: #28a745; /* Verde */
+  font-weight: bold;
+}
+
+.calificado {
+  color: #666666;
+  font-weight: bold;
+}
+
+
+
+.mensaje-no-pedidos {
+  margin-top: 20px; /* Ajusta el valor de margen según lo necesites */
+  text-align: center;
+  color: #666; /* Opcional: Cambia el color del texto */
+}
+
+/* Botones */
+.btn-cancel, .btn-evaluate {
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.btn-cancel {
+  background-color: #FF0066; /* Color rosa */
+}
+
+.btn-cancel:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-evaluate {
+  background-color: #28a745; /* Verde */
+}
+
+.btn-evaluate:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .nav-menu {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
